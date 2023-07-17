@@ -18,6 +18,9 @@
 		88779A5A2A65AE8000F0538B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88779A592A65AE8000F0538B /* WidgetKit.framework */; };
 		88779A5D2A65AFB000F0538B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88779A5F2A65AFB000F0538B /* Localizable.strings */; };
 		88779A632A65B0AF00F0538B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88779A652A65B0AF00F0538B /* Localizable.strings */; };
+		88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A692A65D44200F0538B /* Sidebar.swift */; };
+		88877A8D2A65EA9500126A7A /* FoodTruckKit in Frameworks */ = {isa = PBXBuildFile; productRef = 88877A8C2A65EA9500126A7A /* FoodTruckKit */; };
+		88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88877A8E2A65ECCA00126A7A /* DetailColumn.swift */; };
 		88AEB6582A6149580028950B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6572A6149580028950B /* App.swift */; };
 		88AEB65A2A6149580028950B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6592A6149580028950B /* ContentView.swift */; };
 		88AEB65C2A61495D0028950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65B2A61495D0028950B /* Assets.xcassets */; };
@@ -64,6 +67,8 @@
 		88779A602A65B00000F0538B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88779A642A65B0AF00F0538B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88779A672A65B1CC00F0538B /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
+		88779A692A65D44200F0538B /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		88877A8E2A65ECCA00126A7A /* DetailColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColumn.swift; sourceTree = "<group>"; };
 		88AEB6542A6149580028950B /* Iceme Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iceme Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB6572A6149580028950B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		88AEB6592A6149580028950B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88877A8D2A65EA9500126A7A /* FoodTruckKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +138,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		88779A682A65D40400F0538B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				88779A692A65D44200F0538B /* Sidebar.swift */,
+				88877A8E2A65ECCA00126A7A /* DetailColumn.swift */,
+				88AEB6592A6149580028950B /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		88AEB64B2A6149570028950B = {
 			isa = PBXGroup;
 			children = (
@@ -156,9 +172,9 @@
 		88AEB6562A6149580028950B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				88779A682A65D40400F0538B /* Navigation */,
 				88AEB6572A6149580028950B /* App.swift */,
 				88AEB65B2A61495D0028950B /* Assets.xcassets */,
-				88AEB6592A6149580028950B /* ContentView.swift */,
 				88779A532A65AB6300F0538B /* Entitlements-All.entitlements */,
 				88AEB65D2A61495D0028950B /* Entitlements.entitlements */,
 				88779A5F2A65AFB000F0538B /* Localizable.strings */,
@@ -213,6 +229,9 @@
 				88779A4A2A659F1600F0538B /* PBXTargetDependency */,
 			);
 			name = "Iceme Corner";
+			packageProductDependencies = (
+				88877A8C2A65EA9500126A7A /* FoodTruckKit */,
+			);
 			productName = "Iceme Corner";
 			productReference = 88AEB6542A6149580028950B /* Iceme Corner.app */;
 			productType = "com.apple.product-type.application";
@@ -294,7 +313,9 @@
 			files = (
 				88AEB65A2A6149580028950B /* ContentView.swift in Sources */,
 				88779A482A659F1600F0538B /* Widgets.intentdefinition in Sources */,
+				88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */,
 				88AEB6582A6149580028950B /* App.swift in Sources */,
+				88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,16 +538,20 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Iceme Corner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 59ABJ4Y883;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Iceme Corner";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
@@ -558,16 +583,20 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Iceme Corner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 59ABJ4Y883;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Iceme Corner";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
@@ -623,6 +652,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		88779A552A65AE3B00F0538B /* FoodTruckKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FoodTruckKit;
+		};
+		88877A8C2A65EA9500126A7A /* FoodTruckKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FoodTruckKit;
 		};
