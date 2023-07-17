@@ -7,13 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88779A402A659F1400F0538B /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A3F2A659F1400F0538B /* WidgetsBundle.swift */; };
+		88779A422A659F1400F0538B /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A412A659F1400F0538B /* Widgets.swift */; };
+		88779A452A659F1600F0538B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88779A442A659F1600F0538B /* Assets.xcassets */; };
+		88779A472A659F1600F0538B /* Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 88779A432A659F1400F0538B /* Widgets.intentdefinition */; };
+		88779A482A659F1600F0538B /* Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 88779A432A659F1400F0538B /* Widgets.intentdefinition */; };
+		88779A4B2A659F1600F0538B /* WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 88779A392A659F1300F0538B /* WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		88779A562A65AE3B00F0538B /* FoodTruckKit in Frameworks */ = {isa = PBXBuildFile; productRef = 88779A552A65AE3B00F0538B /* FoodTruckKit */; };
+		88779A582A65AE6D00F0538B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88779A572A65AE6D00F0538B /* SwiftUI.framework */; };
+		88779A5A2A65AE8000F0538B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88779A592A65AE8000F0538B /* WidgetKit.framework */; };
+		88779A5D2A65AFB000F0538B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88779A5F2A65AFB000F0538B /* Localizable.strings */; };
+		88779A632A65B0AF00F0538B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88779A652A65B0AF00F0538B /* Localizable.strings */; };
 		88AEB6582A6149580028950B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6572A6149580028950B /* App.swift */; };
 		88AEB65A2A6149580028950B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6592A6149580028950B /* ContentView.swift */; };
 		88AEB65C2A61495D0028950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65B2A61495D0028950B /* Assets.xcassets */; };
 		88AEB6602A61495D0028950B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65F2A61495D0028950B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		88779A492A659F1600F0538B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88AEB64C2A6149570028950B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88779A382A659F1300F0538B;
+			remoteInfo = WidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88779A4F2A659F1700F0538B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88779A4B2A659F1600F0538B /* WidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		88779A392A659F1300F0538B /* WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		88779A3F2A659F1400F0538B /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
+		88779A412A659F1400F0538B /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
+		88779A432A659F1400F0538B /* Widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Widgets.intentdefinition; sourceTree = "<group>"; };
+		88779A442A659F1600F0538B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88779A462A659F1600F0538B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88779A502A65A1D100F0538B /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		88779A522A65A6DB00F0538B /* FoodTruckKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FoodTruckKit; path = "../../../RESOURCES & REFERENCES/Frameworks & Dependacies/FoodTruckKit"; sourceTree = "<group>"; };
+		88779A532A65AB6300F0538B /* Entitlements-All.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Entitlements-All.entitlements"; sourceTree = "<group>"; };
+		88779A572A65AE6D00F0538B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		88779A592A65AE8000F0538B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/WidgetKit.framework; sourceTree = DEVELOPER_DIR; };
+		88779A5E2A65AFB000F0538B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88779A602A65B00000F0538B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88779A642A65B0AF00F0538B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88779A672A65B1CC00F0538B /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
 		88AEB6542A6149580028950B /* Iceme Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iceme Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB6572A6149580028950B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		88AEB6592A6149580028950B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +73,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		88779A362A659F1300F0538B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88779A562A65AE3B00F0538B /* FoodTruckKit in Frameworks */,
+				88779A582A65AE6D00F0538B /* SwiftUI.framework in Frameworks */,
+				88779A5A2A65AE8000F0538B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88AEB6512A6149580028950B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,11 +93,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88779A152A65904000F0538B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				88779A502A65A1D100F0538B /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		88779A3E2A659F1400F0538B /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				88779A442A659F1600F0538B /* Assets.xcassets */,
+				88779A462A659F1600F0538B /* Info.plist */,
+				88779A652A65B0AF00F0538B /* Localizable.strings */,
+				88779A672A65B1CC00F0538B /* Widgets.entitlements */,
+				88779A432A659F1400F0538B /* Widgets.intentdefinition */,
+				88779A412A659F1400F0538B /* Widgets.swift */,
+				88779A3F2A659F1400F0538B /* WidgetsBundle.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		88779A512A65A6DB00F0538B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				88779A522A65A6DB00F0538B /* FoodTruckKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		88779A542A65AE3B00F0538B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88779A592A65AE8000F0538B /* WidgetKit.framework */,
+				88779A572A65AE6D00F0538B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88AEB64B2A6149570028950B = {
 			isa = PBXGroup;
 			children = (
-				88AEB6562A6149580028950B /* Iceme Corner */,
+				88AEB6562A6149580028950B /* App */,
+				88779A152A65904000F0538B /* Configuration */,
+				88779A512A65A6DB00F0538B /* Packages */,
 				88AEB6552A6149580028950B /* Products */,
+				88779A3E2A659F1400F0538B /* Widgets */,
+				88779A542A65AE3B00F0538B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,20 +148,23 @@
 			isa = PBXGroup;
 			children = (
 				88AEB6542A6149580028950B /* Iceme Corner.app */,
+				88779A392A659F1300F0538B /* WidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88AEB6562A6149580028950B /* Iceme Corner */ = {
+		88AEB6562A6149580028950B /* App */ = {
 			isa = PBXGroup;
 			children = (
 				88AEB6572A6149580028950B /* App.swift */,
-				88AEB6592A6149580028950B /* ContentView.swift */,
 				88AEB65B2A61495D0028950B /* Assets.xcassets */,
+				88AEB6592A6149580028950B /* ContentView.swift */,
+				88779A532A65AB6300F0538B /* Entitlements-All.entitlements */,
 				88AEB65D2A61495D0028950B /* Entitlements.entitlements */,
+				88779A5F2A65AFB000F0538B /* Localizable.strings */,
 				88AEB65E2A61495D0028950B /* Preview Content */,
 			);
-			path = "Iceme Corner";
+			path = App;
 			sourceTree = "<group>";
 		};
 		88AEB65E2A61495D0028950B /* Preview Content */ = {
@@ -72,6 +178,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		88779A382A659F1300F0538B /* WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88779A4C2A659F1700F0538B /* Build configuration list for PBXNativeTarget "WidgetsExtension" */;
+			buildPhases = (
+				88779A352A659F1300F0538B /* Sources */,
+				88779A362A659F1300F0538B /* Frameworks */,
+				88779A372A659F1300F0538B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetsExtension;
+			packageProductDependencies = (
+				88779A552A65AE3B00F0538B /* FoodTruckKit */,
+			);
+			productName = WidgetsExtension;
+			productReference = 88779A392A659F1300F0538B /* WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		88AEB6532A6149580028950B /* Iceme Corner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88AEB6632A61495D0028950B /* Build configuration list for PBXNativeTarget "Iceme Corner" */;
@@ -79,10 +205,12 @@
 				88AEB6502A6149580028950B /* Sources */,
 				88AEB6512A6149580028950B /* Frameworks */,
 				88AEB6522A6149580028950B /* Resources */,
+				88779A4F2A659F1700F0538B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				88779A4A2A659F1600F0538B /* PBXTargetDependency */,
 			);
 			name = "Iceme Corner";
 			productName = "Iceme Corner";
@@ -99,6 +227,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					88779A382A659F1300F0538B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					88AEB6532A6149580028950B = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -111,6 +242,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 88AEB64B2A6149570028950B;
 			productRefGroup = 88AEB6552A6149580028950B /* Products */;
@@ -118,16 +250,27 @@
 			projectRoot = "";
 			targets = (
 				88AEB6532A6149580028950B /* Iceme Corner */,
+				88779A382A659F1300F0538B /* WidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		88779A372A659F1300F0538B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88779A452A659F1600F0538B /* Assets.xcassets in Resources */,
+				88779A632A65B0AF00F0538B /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88AEB6522A6149580028950B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				88AEB6602A61495D0028950B /* Preview Assets.xcassets in Resources */,
+				88779A5D2A65AFB000F0538B /* Localizable.strings in Resources */,
 				88AEB65C2A61495D0028950B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,22 +278,129 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		88779A352A659F1300F0538B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88779A402A659F1400F0538B /* WidgetsBundle.swift in Sources */,
+				88779A472A659F1600F0538B /* Widgets.intentdefinition in Sources */,
+				88779A422A659F1400F0538B /* Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88AEB6502A6149580028950B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				88AEB65A2A6149580028950B /* ContentView.swift in Sources */,
+				88779A482A659F1600F0538B /* Widgets.intentdefinition in Sources */,
 				88AEB6582A6149580028950B /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		88779A4A2A659F1600F0538B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88779A382A659F1300F0538B /* WidgetsExtension */;
+			targetProxy = 88779A492A659F1600F0538B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88779A5F2A65AFB000F0538B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88779A5E2A65AFB000F0538B /* en */,
+				88779A602A65B00000F0538B /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		88779A652A65B0AF00F0538B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88779A642A65B0AF00F0538B /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		88779A4D2A659F1700F0538B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59ABJ4Y883;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenibrian.Iceme-Corner.Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		88779A4E2A659F1700F0538B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59ABJ4Y883;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenibrian.Iceme-Corner.Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		88AEB6612A61495D0028950B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -209,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -259,16 +510,19 @@
 		88AEB6642A61495D0028950B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Iceme Corner/Iceme_Corner.entitlements";
+				CODE_SIGN_ENTITLEMENTS = App/Entitlements.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Iceme Corner/Preview Content\"";
 				DEVELOPMENT_TEAM = 59ABJ4Y883;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -297,16 +551,19 @@
 		88AEB6652A61495D0028950B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Iceme Corner/Iceme_Corner.entitlements";
+				CODE_SIGN_ENTITLEMENTS = App/Entitlements.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Iceme Corner/Preview Content\"";
 				DEVELOPMENT_TEAM = 59ABJ4Y883;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -335,6 +592,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		88779A4C2A659F1700F0538B /* Build configuration list for PBXNativeTarget "WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88779A4D2A659F1700F0538B /* Debug */,
+				88779A4E2A659F1700F0538B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		88AEB64F2A6149570028950B /* Build configuration list for PBXProject "Iceme Corner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -354,6 +620,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88779A552A65AE3B00F0538B /* FoodTruckKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FoodTruckKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88AEB64C2A6149570028950B /* Project object */;
 }
