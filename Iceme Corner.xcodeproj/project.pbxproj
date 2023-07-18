@@ -21,6 +21,11 @@
 		88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A692A65D44200F0538B /* Sidebar.swift */; };
 		88877A8D2A65EA9500126A7A /* FoodTruckKit in Frameworks */ = {isa = PBXBuildFile; productRef = 88877A8C2A65EA9500126A7A /* FoodTruckKit */; };
 		88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88877A8E2A65ECCA00126A7A /* DetailColumn.swift */; };
+		889BA7042A66F3670025AB79 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA7032A66F3670025AB79 /* CityView.swift */; };
+		889BA7062A66F7030025AB79 /* ParkingSpotShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA7052A66F7030025AB79 /* ParkingSpotShowcaseView.swift */; };
+		889BA7082A66F8E30025AB79 /* DetailedMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA7072A66F8E30025AB79 /* DetailedMapView.swift */; };
+		889BA70A2A66FF840025AB79 /* RecommendedParkingSpotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA7092A66FF840025AB79 /* RecommendedParkingSpotCard.swift */; };
+		889BA70C2A67051C0025AB79 /* CityWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA70B2A67051C0025AB79 /* CityWeatherCard.swift */; };
 		88AEB6582A6149580028950B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6572A6149580028950B /* App.swift */; };
 		88AEB65A2A6149580028950B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6592A6149580028950B /* ContentView.swift */; };
 		88AEB65C2A61495D0028950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65B2A61495D0028950B /* Assets.xcassets */; };
@@ -69,6 +74,11 @@
 		88779A672A65B1CC00F0538B /* Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgets.entitlements; sourceTree = "<group>"; };
 		88779A692A65D44200F0538B /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		88877A8E2A65ECCA00126A7A /* DetailColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColumn.swift; sourceTree = "<group>"; };
+		889BA7032A66F3670025AB79 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		889BA7052A66F7030025AB79 /* ParkingSpotShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpotShowcaseView.swift; sourceTree = "<group>"; };
+		889BA7072A66F8E30025AB79 /* DetailedMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedMapView.swift; sourceTree = "<group>"; };
+		889BA7092A66FF840025AB79 /* RecommendedParkingSpotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedParkingSpotCard.swift; sourceTree = "<group>"; };
+		889BA70B2A67051C0025AB79 /* CityWeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherCard.swift; sourceTree = "<group>"; };
 		88AEB6542A6149580028950B /* Iceme Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iceme Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB6572A6149580028950B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		88AEB6592A6149580028950B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +158,18 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		889BA7022A66F34F0025AB79 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				889BA7032A66F3670025AB79 /* CityView.swift */,
+				889BA70B2A67051C0025AB79 /* CityWeatherCard.swift */,
+				889BA7052A66F7030025AB79 /* ParkingSpotShowcaseView.swift */,
+				889BA7092A66FF840025AB79 /* RecommendedParkingSpotCard.swift */,
+				889BA7072A66F8E30025AB79 /* DetailedMapView.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
 		88AEB64B2A6149570028950B = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +194,7 @@
 		88AEB6562A6149580028950B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				889BA7022A66F34F0025AB79 /* City */,
 				88779A682A65D40400F0538B /* Navigation */,
 				88AEB6572A6149580028950B /* App.swift */,
 				88AEB65B2A61495D0028950B /* Assets.xcassets */,
@@ -312,8 +335,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AEB65A2A6149580028950B /* ContentView.swift in Sources */,
+				889BA70A2A66FF840025AB79 /* RecommendedParkingSpotCard.swift in Sources */,
+				889BA7062A66F7030025AB79 /* ParkingSpotShowcaseView.swift in Sources */,
+				889BA7042A66F3670025AB79 /* CityView.swift in Sources */,
 				88779A482A659F1600F0538B /* Widgets.intentdefinition in Sources */,
 				88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */,
+				889BA7082A66F8E30025AB79 /* DetailedMapView.swift in Sources */,
+				889BA70C2A67051C0025AB79 /* CityWeatherCard.swift in Sources */,
 				88AEB6582A6149580028950B /* App.swift in Sources */,
 				88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */,
 			);
@@ -352,6 +380,7 @@
 /* Begin XCBuildConfiguration section */
 		88779A4D2A659F1700F0538B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88779A502A65A1D100F0538B /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -385,6 +414,7 @@
 		};
 		88779A4E2A659F1700F0538B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88779A502A65A1D100F0538B /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +449,7 @@
 		};
 		88AEB6612A61495D0028950B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88779A502A65A1D100F0538B /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -478,6 +509,7 @@
 		};
 		88AEB6622A61495D0028950B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88779A502A65A1D100F0538B /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -530,7 +562,9 @@
 		};
 		88AEB6642A61495D0028950B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88779A502A65A1D100F0538B /* SampleCode.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -575,7 +609,9 @@
 		};
 		88AEB6652A61495D0028950B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88779A502A65A1D100F0538B /* SampleCode.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
