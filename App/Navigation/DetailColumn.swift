@@ -53,8 +53,7 @@ struct DetailColumn: View {
             EmptyView()
 //            TopFiveDonutsView(model: model)
         case .city(let id):
-            EmptyView()
-//            CityView(city: City.identified(by: id))
+            CityView(city: City.identified(by: id))
         }
     }
 }
