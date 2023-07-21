@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8829A0822A69F8C800977A99 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829A0812A69F8C800977A99 /* FlowLayout.swift */; };
+		8829A0842A6A058200977A99 /* WidthThresholdReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829A0832A6A058200977A99 /* WidthThresholdReader.swift */; };
 		88779A402A659F1400F0538B /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A3F2A659F1400F0538B /* WidgetsBundle.swift */; };
 		88779A422A659F1400F0538B /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A412A659F1400F0538B /* Widgets.swift */; };
 		88779A452A659F1600F0538B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88779A442A659F1600F0538B /* Assets.xcassets */; };
@@ -57,6 +59,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8829A0812A69F8C800977A99 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		8829A0832A6A058200977A99 /* WidthThresholdReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthThresholdReader.swift; sourceTree = "<group>"; };
 		88779A392A659F1300F0538B /* WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		88779A3F2A659F1400F0538B /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
 		88779A412A659F1400F0538B /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8829A07E2A69F75600977A99 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8829A0812A69F8C800977A99 /* FlowLayout.swift */,
+				8829A0832A6A058200977A99 /* WidthThresholdReader.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		88779A152A65904000F0538B /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +207,7 @@
 		88AEB6562A6149580028950B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8829A07E2A69F75600977A99 /* General */,
 				889BA7022A66F34F0025AB79 /* City */,
 				88779A682A65D40400F0538B /* Navigation */,
 				88AEB6572A6149580028950B /* App.swift */,
@@ -334,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8829A0822A69F8C800977A99 /* FlowLayout.swift in Sources */,
 				88AEB65A2A6149580028950B /* ContentView.swift in Sources */,
 				889BA70A2A66FF840025AB79 /* RecommendedParkingSpotCard.swift in Sources */,
 				889BA7062A66F7030025AB79 /* ParkingSpotShowcaseView.swift in Sources */,
@@ -342,6 +357,7 @@
 				88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */,
 				889BA7082A66F8E30025AB79 /* DetailedMapView.swift in Sources */,
 				889BA70C2A67051C0025AB79 /* CityWeatherCard.swift in Sources */,
+				8829A0842A6A058200977A99 /* WidthThresholdReader.swift in Sources */,
 				88AEB6582A6149580028950B /* App.swift in Sources */,
 				88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */,
 			);
