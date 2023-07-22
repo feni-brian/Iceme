@@ -32,6 +32,14 @@
 		88AEB65A2A6149580028950B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6592A6149580028950B /* ContentView.swift */; };
 		88AEB65C2A61495D0028950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65B2A61495D0028950B /* Assets.xcassets */; };
 		88AEB6602A61495D0028950B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65F2A61495D0028950B /* Preview Assets.xcassets */; };
+		88B3A8AC2A6B334E002E6CEC /* DonutGalleryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8AB2A6B334E002E6CEC /* DonutGalleryGrid.swift */; };
+		88B3A8AE2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8AD2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift */; };
+		88B3A8B02A6B3A69002E6CEC /* TopDonutSalesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8AF2A6B3A69002E6CEC /* TopDonutSalesChart.swift */; };
+		88B3A8B22A6B407E002E6CEC /* TopFiveDonutsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8B12A6B407E002E6CEC /* TopFiveDonutsChart.swift */; };
+		88B3A8B42A6B4354002E6CEC /* TopFiveDonutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8B32A6B4354002E6CEC /* TopFiveDonutsView.swift */; };
+		88B3A8B62A6B4744002E6CEC /* ShowTopDonutsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8B52A6B4744002E6CEC /* ShowTopDonutsIntent.swift */; };
+		88B3A8B82A6B4C26002E6CEC /* DonutGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8B72A6B4C26002E6CEC /* DonutGallery.swift */; };
+		88F6F7402A6B558B00477A99 /* DonutEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F73F2A6B558B00477A99 /* DonutEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +97,14 @@
 		88AEB65B2A61495D0028950B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88AEB65D2A61495D0028950B /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
 		88AEB65F2A61495D0028950B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88B3A8AB2A6B334E002E6CEC /* DonutGalleryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutGalleryGrid.swift; sourceTree = "<group>"; };
+		88B3A8AD2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTopDonutsIntentView.swift; sourceTree = "<group>"; };
+		88B3A8AF2A6B3A69002E6CEC /* TopDonutSalesChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDonutSalesChart.swift; sourceTree = "<group>"; };
+		88B3A8B12A6B407E002E6CEC /* TopFiveDonutsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFiveDonutsChart.swift; sourceTree = "<group>"; };
+		88B3A8B32A6B4354002E6CEC /* TopFiveDonutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFiveDonutsView.swift; sourceTree = "<group>"; };
+		88B3A8B52A6B4744002E6CEC /* ShowTopDonutsIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTopDonutsIntent.swift; sourceTree = "<group>"; };
+		88B3A8B72A6B4C26002E6CEC /* DonutGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutGallery.swift; sourceTree = "<group>"; };
+		88F6F73F2A6B558B00477A99 /* DonutEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,9 +180,9 @@
 		88779A682A65D40400F0538B /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				88779A692A65D44200F0538B /* Sidebar.swift */,
-				88877A8E2A65ECCA00126A7A /* DetailColumn.swift */,
 				88AEB6592A6149580028950B /* ContentView.swift */,
+				88877A8E2A65ECCA00126A7A /* DetailColumn.swift */,
+				88779A692A65D44200F0538B /* Sidebar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -176,9 +192,9 @@
 			children = (
 				889BA7032A66F3670025AB79 /* CityView.swift */,
 				889BA70B2A67051C0025AB79 /* CityWeatherCard.swift */,
+				889BA7072A66F8E30025AB79 /* DetailedMapView.swift */,
 				889BA7052A66F7030025AB79 /* ParkingSpotShowcaseView.swift */,
 				889BA7092A66FF840025AB79 /* RecommendedParkingSpotCard.swift */,
-				889BA7072A66F8E30025AB79 /* DetailedMapView.swift */,
 			);
 			path = City;
 			sourceTree = "<group>";
@@ -207,14 +223,15 @@
 		88AEB6562A6149580028950B /* App */ = {
 			isa = PBXGroup;
 			children = (
-				8829A07E2A69F75600977A99 /* General */,
-				889BA7022A66F34F0025AB79 /* City */,
-				88779A682A65D40400F0538B /* Navigation */,
 				88AEB6572A6149580028950B /* App.swift */,
 				88AEB65B2A61495D0028950B /* Assets.xcassets */,
+				889BA7022A66F34F0025AB79 /* City */,
+				88B3A8AA2A6B32F6002E6CEC /* Donut */,
 				88779A532A65AB6300F0538B /* Entitlements-All.entitlements */,
 				88AEB65D2A61495D0028950B /* Entitlements.entitlements */,
+				8829A07E2A69F75600977A99 /* General */,
 				88779A5F2A65AFB000F0538B /* Localizable.strings */,
+				88779A682A65D40400F0538B /* Navigation */,
 				88AEB65E2A61495D0028950B /* Preview Content */,
 			);
 			path = App;
@@ -226,6 +243,21 @@
 				88AEB65F2A61495D0028950B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88B3A8AA2A6B32F6002E6CEC /* Donut */ = {
+			isa = PBXGroup;
+			children = (
+				88B3A8AB2A6B334E002E6CEC /* DonutGalleryGrid.swift */,
+				88B3A8AD2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift */,
+				88B3A8AF2A6B3A69002E6CEC /* TopDonutSalesChart.swift */,
+				88B3A8B12A6B407E002E6CEC /* TopFiveDonutsChart.swift */,
+				88B3A8B32A6B4354002E6CEC /* TopFiveDonutsView.swift */,
+				88B3A8B52A6B4744002E6CEC /* ShowTopDonutsIntent.swift */,
+				88B3A8B72A6B4C26002E6CEC /* DonutGallery.swift */,
+				88F6F73F2A6B558B00477A99 /* DonutEditor.swift */,
+			);
+			path = Donut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,18 +380,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B3A8B02A6B3A69002E6CEC /* TopDonutSalesChart.swift in Sources */,
+				88F6F7402A6B558B00477A99 /* DonutEditor.swift in Sources */,
+				88B3A8AE2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift in Sources */,
 				8829A0822A69F8C800977A99 /* FlowLayout.swift in Sources */,
+				88B3A8AC2A6B334E002E6CEC /* DonutGalleryGrid.swift in Sources */,
 				88AEB65A2A6149580028950B /* ContentView.swift in Sources */,
 				889BA70A2A66FF840025AB79 /* RecommendedParkingSpotCard.swift in Sources */,
+				88B3A8B42A6B4354002E6CEC /* TopFiveDonutsView.swift in Sources */,
 				889BA7062A66F7030025AB79 /* ParkingSpotShowcaseView.swift in Sources */,
+				88B3A8B82A6B4C26002E6CEC /* DonutGallery.swift in Sources */,
 				889BA7042A66F3670025AB79 /* CityView.swift in Sources */,
 				88779A482A659F1600F0538B /* Widgets.intentdefinition in Sources */,
 				88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */,
 				889BA7082A66F8E30025AB79 /* DetailedMapView.swift in Sources */,
 				889BA70C2A67051C0025AB79 /* CityWeatherCard.swift in Sources */,
+				88B3A8B62A6B4744002E6CEC /* ShowTopDonutsIntent.swift in Sources */,
 				8829A0842A6A058200977A99 /* WidthThresholdReader.swift in Sources */,
 				88AEB6582A6149580028950B /* App.swift in Sources */,
 				88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */,
+				88B3A8B22A6B407E002E6CEC /* TopFiveDonutsChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
