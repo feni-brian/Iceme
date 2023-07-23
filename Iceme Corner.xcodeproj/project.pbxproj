@@ -28,6 +28,11 @@
 		889BA7082A66F8E30025AB79 /* DetailedMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA7072A66F8E30025AB79 /* DetailedMapView.swift */; };
 		889BA70A2A66FF840025AB79 /* RecommendedParkingSpotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA7092A66FF840025AB79 /* RecommendedParkingSpotCard.swift */; };
 		889BA70C2A67051C0025AB79 /* CityWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA70B2A67051C0025AB79 /* CityWeatherCard.swift */; };
+		889FB9322A6C6FFA00AD470F /* OrderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9312A6C6FFA00AD470F /* OrderRow.swift */; };
+		889FB9342A6C722C00AD470F /* OrdersTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9332A6C722C00AD470F /* OrdersTable.swift */; };
+		889FB9362A6C79FB00AD470F /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9352A6C79FB00AD470F /* OrderDetailView.swift */; };
+		889FB9382A6C7E6500AD470F /* OrderCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9372A6C7E6500AD470F /* OrderCompleteView.swift */; };
+		889FB93A2A6C9C5800AD470F /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9392A6C9C5800AD470F /* OrdersView.swift */; };
 		88AEB6582A6149580028950B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6572A6149580028950B /* App.swift */; };
 		88AEB65A2A6149580028950B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6592A6149580028950B /* ContentView.swift */; };
 		88AEB65C2A61495D0028950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65B2A61495D0028950B /* Assets.xcassets */; };
@@ -91,6 +96,11 @@
 		889BA7072A66F8E30025AB79 /* DetailedMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedMapView.swift; sourceTree = "<group>"; };
 		889BA7092A66FF840025AB79 /* RecommendedParkingSpotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedParkingSpotCard.swift; sourceTree = "<group>"; };
 		889BA70B2A67051C0025AB79 /* CityWeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherCard.swift; sourceTree = "<group>"; };
+		889FB9312A6C6FFA00AD470F /* OrderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRow.swift; sourceTree = "<group>"; };
+		889FB9332A6C722C00AD470F /* OrdersTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTable.swift; sourceTree = "<group>"; };
+		889FB9352A6C79FB00AD470F /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		889FB9372A6C7E6500AD470F /* OrderCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCompleteView.swift; sourceTree = "<group>"; };
+		889FB9392A6C9C5800AD470F /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
 		88AEB6542A6149580028950B /* Iceme Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iceme Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB6572A6149580028950B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		88AEB6592A6149580028950B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,6 +209,18 @@
 			path = City;
 			sourceTree = "<group>";
 		};
+		889FB9302A6C6FB900AD470F /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				889FB9312A6C6FFA00AD470F /* OrderRow.swift */,
+				889FB9332A6C722C00AD470F /* OrdersTable.swift */,
+				889FB9352A6C79FB00AD470F /* OrderDetailView.swift */,
+				889FB9372A6C7E6500AD470F /* OrderCompleteView.swift */,
+				889FB9392A6C9C5800AD470F /* OrdersView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
 		88AEB64B2A6149570028950B = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +245,7 @@
 		88AEB6562A6149580028950B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				889FB9302A6C6FB900AD470F /* Orders */,
 				88AEB6572A6149580028950B /* App.swift */,
 				88AEB65B2A61495D0028950B /* Assets.xcassets */,
 				889BA7022A66F34F0025AB79 /* City */,
@@ -248,14 +271,14 @@
 		88B3A8AA2A6B32F6002E6CEC /* Donut */ = {
 			isa = PBXGroup;
 			children = (
+				88F6F73F2A6B558B00477A99 /* DonutEditor.swift */,
+				88B3A8B72A6B4C26002E6CEC /* DonutGallery.swift */,
 				88B3A8AB2A6B334E002E6CEC /* DonutGalleryGrid.swift */,
+				88B3A8B52A6B4744002E6CEC /* ShowTopDonutsIntent.swift */,
 				88B3A8AD2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift */,
 				88B3A8AF2A6B3A69002E6CEC /* TopDonutSalesChart.swift */,
 				88B3A8B12A6B407E002E6CEC /* TopFiveDonutsChart.swift */,
 				88B3A8B32A6B4354002E6CEC /* TopFiveDonutsView.swift */,
-				88B3A8B52A6B4744002E6CEC /* ShowTopDonutsIntent.swift */,
-				88B3A8B72A6B4C26002E6CEC /* DonutGallery.swift */,
-				88F6F73F2A6B558B00477A99 /* DonutEditor.swift */,
 			);
 			path = Donut;
 			sourceTree = "<group>";
@@ -382,20 +405,25 @@
 			files = (
 				88B3A8B02A6B3A69002E6CEC /* TopDonutSalesChart.swift in Sources */,
 				88F6F7402A6B558B00477A99 /* DonutEditor.swift in Sources */,
+				889FB9382A6C7E6500AD470F /* OrderCompleteView.swift in Sources */,
 				88B3A8AE2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift in Sources */,
 				8829A0822A69F8C800977A99 /* FlowLayout.swift in Sources */,
 				88B3A8AC2A6B334E002E6CEC /* DonutGalleryGrid.swift in Sources */,
+				889FB9362A6C79FB00AD470F /* OrderDetailView.swift in Sources */,
 				88AEB65A2A6149580028950B /* ContentView.swift in Sources */,
 				889BA70A2A66FF840025AB79 /* RecommendedParkingSpotCard.swift in Sources */,
 				88B3A8B42A6B4354002E6CEC /* TopFiveDonutsView.swift in Sources */,
 				889BA7062A66F7030025AB79 /* ParkingSpotShowcaseView.swift in Sources */,
+				889FB9322A6C6FFA00AD470F /* OrderRow.swift in Sources */,
 				88B3A8B82A6B4C26002E6CEC /* DonutGallery.swift in Sources */,
 				889BA7042A66F3670025AB79 /* CityView.swift in Sources */,
 				88779A482A659F1600F0538B /* Widgets.intentdefinition in Sources */,
+				889FB93A2A6C9C5800AD470F /* OrdersView.swift in Sources */,
 				88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */,
 				889BA7082A66F8E30025AB79 /* DetailedMapView.swift in Sources */,
 				889BA70C2A67051C0025AB79 /* CityWeatherCard.swift in Sources */,
 				88B3A8B62A6B4744002E6CEC /* ShowTopDonutsIntent.swift in Sources */,
+				889FB9342A6C722C00AD470F /* OrdersTable.swift in Sources */,
 				8829A0842A6A058200977A99 /* WidthThresholdReader.swift in Sources */,
 				88AEB6582A6149580028950B /* App.swift in Sources */,
 				88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */,
