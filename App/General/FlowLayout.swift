@@ -83,7 +83,7 @@ struct FlowLayout: Layout {
                 let rowWidth = maxPossibleWidth - remainingWidth
                 
                 rows.append(Row(range: index - max(itemsInRow - 1, 0) ..< index + 1, xOffsets: xOffsets, frame: CGRect(x: 0, y: rowMinY, width: rowWidth, height: rowHeight)))
-                bounds.width = max(bounds.width, rowHeight)
+                bounds.width = max(bounds.width, rowWidth)
                 
                 let ySpacing = spacing ?? ViewSpacing().distance(to: ViewSpacing(), along: .vertical)
                 
@@ -101,12 +101,9 @@ struct FlowLayout: Layout {
 private extension HorizontalAlignment {
     var percent: Double {
         switch self {
-        case .leading:
-            return 0
-        case .trailing:
-            return 1
-        default:
-            return 0.5
+        case .leading: return 0
+        case .trailing: return 1
+        default: return 0.5
         }
     }
 }
@@ -114,12 +111,9 @@ private extension HorizontalAlignment {
 private extension VerticalAlignment {
     var percent: Double {
         switch self {
-        case .top:
-            return 0
-        case .bottom:
-            return 1
-        default:
-            return 0.5
+        case .top: return 0
+        case .bottom: return 1
+        default: return 0.5
         }
     }
 }
