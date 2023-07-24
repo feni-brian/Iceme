@@ -7,14 +7,31 @@
 
 import SwiftUI
 
-struct CardNavigationHeader: View {
+struct CardNavigationHeader<Label: View>: View {
+    var panel: Panel
+    var navigation: TruckCardHeaderNavigation
+    @ViewBuilder var label: Label
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            switch navigation {
+            case .navigationLink:
+                NavigationLink(value: panel, label: { label })
+            case .selection(let selection):
+                Button(action: { selection.wrappedValue = panel }, label: { label })
+            }
+            Spacer()
+        }
+        .buttonStyle(.borderless)
+        .labelStyle(.cardNavigationHeader)
     }
 }
 
 struct CardNavigationHeader_Previews: PreviewProvider {
     static var previews: some View {
-        CardNavigationHeader()
+        NavigationStack {
+            CardNavigationHeader(panel: .orders, navigation: .navigationLink, label: { Label("Orders", systemImage: "shippingbox") })
+        }
+        .padding()
     }
 }

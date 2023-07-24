@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		8829A0822A69F8C800977A99 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829A0812A69F8C800977A99 /* FlowLayout.swift */; };
 		8829A0842A6A058200977A99 /* WidthThresholdReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829A0832A6A058200977A99 /* WidthThresholdReader.swift */; };
+		885CEBAF2A6EBD12003D070D /* SocialFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CEBAE2A6EBD12003D070D /* SocialFeedView.swift */; };
+		885CEBB12A6ECE16003D070D /* SalesHistoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CEBB02A6ECE16003D070D /* SalesHistoryChart.swift */; };
+		885CEBB32A6ED710003D070D /* SalesHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CEBB22A6ED710003D070D /* SalesHistoryView.swift */; };
+		885CEBB52A6F2C8E003D070D /* TruckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885CEBB42A6F2C8E003D070D /* TruckView.swift */; };
 		88779A402A659F1400F0538B /* WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A3F2A659F1400F0538B /* WidgetsBundle.swift */; };
 		88779A422A659F1400F0538B /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88779A412A659F1400F0538B /* Widgets.swift */; };
 		88779A452A659F1600F0538B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88779A442A659F1600F0538B /* Assets.xcassets */; };
@@ -33,6 +37,10 @@
 		889FB9362A6C79FB00AD470F /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9352A6C79FB00AD470F /* OrderDetailView.swift */; };
 		889FB9382A6C7E6500AD470F /* OrderCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9372A6C7E6500AD470F /* OrderCompleteView.swift */; };
 		889FB93A2A6C9C5800AD470F /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9392A6C9C5800AD470F /* OrdersView.swift */; };
+		889FB93E2A6E6B0900AD470F /* CardNavigationHeaderLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB93D2A6E6B0900AD470F /* CardNavigationHeaderLabelStyle.swift */; };
+		889FB9402A6E6D6600AD470F /* CardNavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB93F2A6E6D6600AD470F /* CardNavigationHeader.swift */; };
+		889FB9422A6E6EEF00AD470F /* TruckCardHeaderNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9412A6E6EEF00AD470F /* TruckCardHeaderNavigation.swift */; };
+		889FB9442A6E720E00AD470F /* TruckWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FB9432A6E720E00AD470F /* TruckWeatherCard.swift */; };
 		88AEB6582A6149580028950B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6572A6149580028950B /* App.swift */; };
 		88AEB65A2A6149580028950B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AEB6592A6149580028950B /* ContentView.swift */; };
 		88AEB65C2A61495D0028950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AEB65B2A61495D0028950B /* Assets.xcassets */; };
@@ -44,6 +52,11 @@
 		88B3A8B42A6B4354002E6CEC /* TopFiveDonutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8B32A6B4354002E6CEC /* TopFiveDonutsView.swift */; };
 		88B3A8B62A6B4744002E6CEC /* ShowTopDonutsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8B52A6B4744002E6CEC /* ShowTopDonutsIntent.swift */; };
 		88B3A8B82A6B4C26002E6CEC /* DonutGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3A8B72A6B4C26002E6CEC /* DonutGallery.swift */; };
+		88EC37782A6E8B4900DA2192 /* SocialFeedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC37772A6E8B4900DA2192 /* SocialFeedContent.swift */; };
+		88EC377A2A6E975200DA2192 /* TruckSocialFeedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC37792A6E975200DA2192 /* TruckSocialFeedCard.swift */; };
+		88EC377C2A6E9B2400DA2192 /* TruckDonutsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC377B2A6E9B2400DA2192 /* TruckDonutsCard.swift */; };
+		88EC377E2A6EA94400DA2192 /* TruckOrdersCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC377D2A6EA94400DA2192 /* TruckOrdersCard.swift */; };
+		88EC37802A6EB3F400DA2192 /* SocialFeedPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EC377F2A6EB3F400DA2192 /* SocialFeedPostView.swift */; };
 		88F6F7402A6B558B00477A99 /* DonutEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F73F2A6B558B00477A99 /* DonutEditor.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +87,10 @@
 /* Begin PBXFileReference section */
 		8829A0812A69F8C800977A99 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		8829A0832A6A058200977A99 /* WidthThresholdReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthThresholdReader.swift; sourceTree = "<group>"; };
+		885CEBAE2A6EBD12003D070D /* SocialFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialFeedView.swift; sourceTree = "<group>"; };
+		885CEBB02A6ECE16003D070D /* SalesHistoryChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesHistoryChart.swift; sourceTree = "<group>"; };
+		885CEBB22A6ED710003D070D /* SalesHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesHistoryView.swift; sourceTree = "<group>"; };
+		885CEBB42A6F2C8E003D070D /* TruckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckView.swift; sourceTree = "<group>"; };
 		88779A392A659F1300F0538B /* WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		88779A3F2A659F1400F0538B /* WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsBundle.swift; sourceTree = "<group>"; };
 		88779A412A659F1400F0538B /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
@@ -101,6 +118,10 @@
 		889FB9352A6C79FB00AD470F /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
 		889FB9372A6C7E6500AD470F /* OrderCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCompleteView.swift; sourceTree = "<group>"; };
 		889FB9392A6C9C5800AD470F /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		889FB93D2A6E6B0900AD470F /* CardNavigationHeaderLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNavigationHeaderLabelStyle.swift; sourceTree = "<group>"; };
+		889FB93F2A6E6D6600AD470F /* CardNavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNavigationHeader.swift; sourceTree = "<group>"; };
+		889FB9412A6E6EEF00AD470F /* TruckCardHeaderNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckCardHeaderNavigation.swift; sourceTree = "<group>"; };
+		889FB9432A6E720E00AD470F /* TruckWeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckWeatherCard.swift; sourceTree = "<group>"; };
 		88AEB6542A6149580028950B /* Iceme Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iceme Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AEB6572A6149580028950B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		88AEB6592A6149580028950B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +135,11 @@
 		88B3A8B32A6B4354002E6CEC /* TopFiveDonutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFiveDonutsView.swift; sourceTree = "<group>"; };
 		88B3A8B52A6B4744002E6CEC /* ShowTopDonutsIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTopDonutsIntent.swift; sourceTree = "<group>"; };
 		88B3A8B72A6B4C26002E6CEC /* DonutGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutGallery.swift; sourceTree = "<group>"; };
+		88EC37772A6E8B4900DA2192 /* SocialFeedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SocialFeedContent.swift; path = Cards/SocialFeedContent.swift; sourceTree = "<group>"; };
+		88EC37792A6E975200DA2192 /* TruckSocialFeedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckSocialFeedCard.swift; sourceTree = "<group>"; };
+		88EC377B2A6E9B2400DA2192 /* TruckDonutsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckDonutsCard.swift; sourceTree = "<group>"; };
+		88EC377D2A6EA94400DA2192 /* TruckOrdersCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckOrdersCard.swift; sourceTree = "<group>"; };
+		88EC377F2A6EB3F400DA2192 /* SocialFeedPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialFeedPostView.swift; sourceTree = "<group>"; };
 		88F6F73F2A6B558B00477A99 /* DonutEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +247,34 @@
 			path = Orders;
 			sourceTree = "<group>";
 		};
+		889FB93B2A6E6AA400AD470F /* Truck */ = {
+			isa = PBXGroup;
+			children = (
+				889FB93C2A6E6AAB00AD470F /* Cards */,
+				885CEBB02A6ECE16003D070D /* SalesHistoryChart.swift */,
+				885CEBB22A6ED710003D070D /* SalesHistoryView.swift */,
+				885CEBB42A6F2C8E003D070D /* TruckView.swift */,
+				88EC37772A6E8B4900DA2192 /* SocialFeedContent.swift */,
+				88EC377F2A6EB3F400DA2192 /* SocialFeedPostView.swift */,
+				885CEBAE2A6EBD12003D070D /* SocialFeedView.swift */,
+			);
+			path = Truck;
+			sourceTree = "<group>";
+		};
+		889FB93C2A6E6AAB00AD470F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				889FB93F2A6E6D6600AD470F /* CardNavigationHeader.swift */,
+				889FB93D2A6E6B0900AD470F /* CardNavigationHeaderLabelStyle.swift */,
+				889FB9412A6E6EEF00AD470F /* TruckCardHeaderNavigation.swift */,
+				88EC377B2A6E9B2400DA2192 /* TruckDonutsCard.swift */,
+				88EC377D2A6EA94400DA2192 /* TruckOrdersCard.swift */,
+				88EC37792A6E975200DA2192 /* TruckSocialFeedCard.swift */,
+				889FB9432A6E720E00AD470F /* TruckWeatherCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
 		88AEB64B2A6149570028950B = {
 			isa = PBXGroup;
 			children = (
@@ -245,7 +299,7 @@
 		88AEB6562A6149580028950B /* App */ = {
 			isa = PBXGroup;
 			children = (
-				889FB9302A6C6FB900AD470F /* Orders */,
+				889FB93B2A6E6AA400AD470F /* Truck */,
 				88AEB6572A6149580028950B /* App.swift */,
 				88AEB65B2A61495D0028950B /* Assets.xcassets */,
 				889BA7022A66F34F0025AB79 /* City */,
@@ -255,6 +309,7 @@
 				8829A07E2A69F75600977A99 /* General */,
 				88779A5F2A65AFB000F0538B /* Localizable.strings */,
 				88779A682A65D40400F0538B /* Navigation */,
+				889FB9302A6C6FB900AD470F /* Orders */,
 				88AEB65E2A61495D0028950B /* Preview Content */,
 			);
 			path = App;
@@ -406,28 +461,41 @@
 				88B3A8B02A6B3A69002E6CEC /* TopDonutSalesChart.swift in Sources */,
 				88F6F7402A6B558B00477A99 /* DonutEditor.swift in Sources */,
 				889FB9382A6C7E6500AD470F /* OrderCompleteView.swift in Sources */,
+				885CEBAF2A6EBD12003D070D /* SocialFeedView.swift in Sources */,
 				88B3A8AE2A6B3973002E6CEC /* ShowTopDonutsIntentView.swift in Sources */,
+				889FB9442A6E720E00AD470F /* TruckWeatherCard.swift in Sources */,
 				8829A0822A69F8C800977A99 /* FlowLayout.swift in Sources */,
+				889FB93E2A6E6B0900AD470F /* CardNavigationHeaderLabelStyle.swift in Sources */,
 				88B3A8AC2A6B334E002E6CEC /* DonutGalleryGrid.swift in Sources */,
+				88EC37782A6E8B4900DA2192 /* SocialFeedContent.swift in Sources */,
 				889FB9362A6C79FB00AD470F /* OrderDetailView.swift in Sources */,
 				88AEB65A2A6149580028950B /* ContentView.swift in Sources */,
+				885CEBB32A6ED710003D070D /* SalesHistoryView.swift in Sources */,
+				88EC377A2A6E975200DA2192 /* TruckSocialFeedCard.swift in Sources */,
 				889BA70A2A66FF840025AB79 /* RecommendedParkingSpotCard.swift in Sources */,
 				88B3A8B42A6B4354002E6CEC /* TopFiveDonutsView.swift in Sources */,
 				889BA7062A66F7030025AB79 /* ParkingSpotShowcaseView.swift in Sources */,
 				889FB9322A6C6FFA00AD470F /* OrderRow.swift in Sources */,
+				88EC377C2A6E9B2400DA2192 /* TruckDonutsCard.swift in Sources */,
 				88B3A8B82A6B4C26002E6CEC /* DonutGallery.swift in Sources */,
 				889BA7042A66F3670025AB79 /* CityView.swift in Sources */,
 				88779A482A659F1600F0538B /* Widgets.intentdefinition in Sources */,
 				889FB93A2A6C9C5800AD470F /* OrdersView.swift in Sources */,
+				885CEBB12A6ECE16003D070D /* SalesHistoryChart.swift in Sources */,
+				885CEBB52A6F2C8E003D070D /* TruckView.swift in Sources */,
 				88779A6A2A65D44200F0538B /* Sidebar.swift in Sources */,
+				889FB9422A6E6EEF00AD470F /* TruckCardHeaderNavigation.swift in Sources */,
 				889BA7082A66F8E30025AB79 /* DetailedMapView.swift in Sources */,
+				88EC377E2A6EA94400DA2192 /* TruckOrdersCard.swift in Sources */,
 				889BA70C2A67051C0025AB79 /* CityWeatherCard.swift in Sources */,
 				88B3A8B62A6B4744002E6CEC /* ShowTopDonutsIntent.swift in Sources */,
 				889FB9342A6C722C00AD470F /* OrdersTable.swift in Sources */,
 				8829A0842A6A058200977A99 /* WidthThresholdReader.swift in Sources */,
+				889FB9402A6E6D6600AD470F /* CardNavigationHeader.swift in Sources */,
 				88AEB6582A6149580028950B /* App.swift in Sources */,
 				88877A8F2A65ECCB00126A7A /* DetailColumn.swift in Sources */,
 				88B3A8B22A6B407E002E6CEC /* TopFiveDonutsChart.swift in Sources */,
+				88EC37802A6EB3F400DA2192 /* SocialFeedPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
