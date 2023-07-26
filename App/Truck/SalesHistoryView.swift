@@ -56,7 +56,7 @@ struct SalesHistoryView: View {
                         .frame(minHeight: 300)
                 }
                 .padding()
-//                UnlockFeatureView(controller: storeController)
+                UnlockFeatureView(controller: storeController)
             }
         }
         .navigationTitle("Sales History")

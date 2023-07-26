@@ -52,16 +52,14 @@ struct SocialFeedView: View {
         }
         .navigationTitle(navigationTitle)
         .sheet(isPresented: $storeIsPresented) {
-//            SubscriptionStoreView(controller: subscriptionController)
-            EmptyView()
+            SubscriptionStoreView(controller: subscriptionController)
                 #if os(macOS)
                 .frame(minWidth: 400, minHeight: 400)
                 #endif
         }
         .sheet(isPresented: $manageSocialFeedPlusIsPresented) {
             NavigationStack {
-//                SocialFeedPlusSettings(controller: subscriptionController)
-                EmptyView()
+                SocialFeedPlusSettings(controller: subscriptionController)
                     #if os(macOS)
                     .frame(minWidth: 300, minHeight: 300)
                     #endif
