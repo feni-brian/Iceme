@@ -27,31 +27,23 @@ struct DetailColumn: View {
     var body: some View {
         switch selection ?? .truck {
         case .truck:
-            EmptyView()
-//            TruckView(model: model, navigationSelection: $selection)
+            TruckView(model: model, navigationSelection: $selection)
         case .orders:
-            EmptyView()
-//            OrdersView(model: model)
+            OrdersView(model: model)
         case .socialFeed:
-            EmptyView()
-//            SocialFeedView()
+            SocialFeedView()
         #if EXTENDED_ALL
         case .account:
-            EmptyView()
-//            AccountView(model: model)
+            AccountView(model: model)
         #endif
         case .salesHistory:
-            EmptyView()
-//            SalesHistoryView(model: model)
+            SalesHistoryView(model: model)
         case .donuts:
-            EmptyView()
-//            DonutGallery(model: model)
+            DonutGallery(model: model)
         case .donutEditor:
-            EmptyView()
-//            DonutEditor(donut: $model.newDonut)
+            DonutEditor(donut: $model.newDonut)
         case .topFive:
-            EmptyView()
-//            TopFiveDonutsView(model: model)
+            TopFiveDonutsView(model: model)
         case .city(let id):
             CityView(city: City.identified(by: id))
         }
