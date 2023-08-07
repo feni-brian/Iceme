@@ -5,6 +5,8 @@
 //  Created by Feni Brian on 17/07/2023.
 //
 
+// MARK: - Unused file
+
 import WidgetKit
 import SwiftUI
 import Intents
@@ -66,3 +68,5 @@ struct Widgets_Previews: PreviewProvider {
             .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }
+
+// MARK: - Unused (Ignore).
