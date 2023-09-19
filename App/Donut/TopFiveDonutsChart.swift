@@ -15,6 +15,7 @@ struct TopFiveDonutsChart: View {
     
     var body: some View {
         TopDonutSalesChart(sales: topSales)
+            .padding()
     }
 }
 

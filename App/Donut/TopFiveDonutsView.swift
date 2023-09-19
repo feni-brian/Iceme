@@ -29,6 +29,7 @@ struct TopFiveDonutsView: View {
                         .tag(Timeframe.year)
                 }
                 .pickerStyle(.segmented)
+                .padding(.horizontal)
                 .padding(.bottom, 10)
                 
                 TopFiveDonutsChart(model: model, timeframe: timeframe)
